@@ -20,7 +20,7 @@ namespace Math2
             // 1 уравнение
             if ((x * x + b >= 0) && x != 0)
             {
-                w = Math.Sqrt(Math.Pow(x, 2) + b) - Math.Pow(x, 2) * Math.Pow(Math.Sin(x + a), 3)/x;
+                w = Math.Sqrt(Math.Pow(x, 2) + b) - Math.Pow(b, 2) * Math.Pow(Math.Sin(x + a), 3)/x;
                 Console.WriteLine("Ответ первого уравнения:\nw = " + w);
             } 
             else Console.WriteLine("Введенные значения не входят в ОДЗ ((x^2 + b >= 0) и (x != 0)");
