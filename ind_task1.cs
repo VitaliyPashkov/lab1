@@ -74,7 +74,7 @@ namespace Table {
                 list.Add(value);
                 while (true)
                 {
-                    Console.WriteLine("Добавить еще элементы в таблицу?\nда - продолжить\nнет - вывод таблицы");
+                    Console.WriteLine("Добавить элементы в таблицу?\nда - продолжить\nнет - вывод таблицы");
                     string input = Console.ReadLine();
                     if (input == "да" || input == "нет")
                     {
