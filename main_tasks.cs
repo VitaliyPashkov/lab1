@@ -82,9 +82,9 @@ namespace Lab1
                         double a, b;
 
                         Console.WriteLine("Длина первого катета:");
-                        a = int.Parse(Console.ReadLine());
+                        a = double.Parse(Console.ReadLine());
                         Console.WriteLine("Длина второго катета:");
-                        b = int.Parse(Console.ReadLine());
+                        b = double.Parse(Console.ReadLine());
 
                         if (a > 0 && b > 0)
                         {
